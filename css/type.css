@@ -1,0 +1,84 @@
+body {
+    font-family : "Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 5.25em;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2.25em;
+}
+
+a {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 110%;
+    border-bottom: 2px solid #3f3f3f;
+}
+
+section {
+    overflow: hidden;
+    padding: 25px;
+}
+
+.intro {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.middle {
+    text-align: center;
+}
+
+pre {
+    text-align: left;
+    font-size: 1.125em;
+    font-family: Monaco, Courier;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.025);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+em {
+    color: rgba(238, 0, 0, 0.75);
+    font-style: normal;
+}
+
+ul, ol {
+    margin-left: 50px;
+}
+
+li {
+    font-size: 2.625em;
+    line-height: 2em;
+}
+
+p {
+    font-size: 2.625em;
+    text-overflow: ellipsis;
+}
+
+span.bg {
+    padding: 0 25px;
+    background: rgba(238, 238, 238, .70);
+}
+
+.slide.black {
+    background: black;
+    color: #fff;
+}
+
+.small {
+    font-size: 1.5em;
+}

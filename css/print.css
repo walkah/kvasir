@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 1056px;
+    height : 815px;
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    page-break-after: always;
+    display: block;
+    width: 1056px;
+    height : 815px;
+}

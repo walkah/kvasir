@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#presentation {
+    overflow: hidden;
+}
+
+.slide {
+    overflow: hidden;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin-top : -3000px;
+    margin-left: -3000px;
+    opacity: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#screen1024 .slide {
+    width : 1024px;
+    height : 768px;
+}
+
+#screen1024 .current {
+    display: block;
+    margin-left: -512px;
+    margin-top:  -384px;
+    opacity: 1;
+}
+
+#screen800 .slide {
+    width : 800px;
+    height : 600px;
+}
+
+#screen800 .current {
+    display: block;
+    margin-left: -400px;
+    margin-top:  -300px;
+    opacity: 1;
+}
+
+header {
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+    width: inherit;
+    text-align: center;
+}
+
+section {
+    display: block;
+    overflow: hidden;
+    padding: 25px;
+}
+
+
+section.intro {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+li.step {
+    opacity: 0;
+}
+
+li {
+    opacity: 1;
+}
+
+.fade {
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+}
+
+.movein {
+    -webkit-transition: margin-left 0.5s ease-in-out; 
+    -moz-transition: margin-left 0.5s ease-in-out; 
+}
+
+.drop {
+    -webkit-transition: margin-top 0.5s ease-in-out; 
+    -moz-transition: margin-top 0.5s ease-in-out; 
+}
