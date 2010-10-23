@@ -20,7 +20,16 @@ a {
     border-bottom: 2px solid #3f3f3f;
 }
 
+header {
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+    width: inherit;
+    text-align: center;
+}
+
 section {
+    display: block;
     overflow: hidden;
     padding: 25px;
 }
@@ -60,7 +69,7 @@ ul, ol {
 }
 
 li {
-    font-size: 2.625em;
+    font-size: 3em;
     line-height: 2em;
 }
 

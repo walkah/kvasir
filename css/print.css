@@ -15,3 +15,7 @@ body {
     width: 1056px;
     height : 815px;
 }
+
+cite { 
+    display: none;
+}

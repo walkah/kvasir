@@ -45,29 +45,11 @@ body {
     opacity: 1;
 }
 
-header {
+cite {
     display: block;
-    margin: 0;
-    padding-top: 20px;
-    width: inherit;
-    text-align: center;
-}
-
-section {
-    display: block;
-    overflow: hidden;
-    padding: 25px;
-}
-
-
-section.intro {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    width: inherit;
-    height: inherit;
-    margin: 0;
-    padding: 0;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
 }
 
 li.step {
